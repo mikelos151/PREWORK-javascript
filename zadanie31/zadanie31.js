@@ -1,11 +1,9 @@
-let number = 1
+let number1 = 1
 
-number = 2
+let number2 = 2
 
-number = 3
+let number3 = 3
 
-console.log(number)
-
-let array = [1, 2, 3];
+let array = [number1, number2, number3];
 
 console.log(array)
