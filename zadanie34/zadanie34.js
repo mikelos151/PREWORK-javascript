@@ -1,13 +1,9 @@
-let num1  = 10 ;
-let num2 = 30 ;
+let firstNumber = 10;
+let secondNumber = 30;
 
-console.log(num1) ;
-console.log(num2) ;
+function suma(num1, num2) {
+  let suma = num1 + num2;
+  return suma;
+}
 
-function sum(num1, num2) {
-let result = num1 + num2;
-
-return result; }
-
-console.log( sum(num1, num2) ) ;
-
+console.log(suma(firstNumber, secondNumber));
